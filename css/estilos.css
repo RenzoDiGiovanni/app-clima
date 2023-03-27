@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.contenedorPadre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(10,15,78,1) 100%);
+}
+.contenedorHijo {
+    width: 100%;
+}
+#txtCiudad {
+    background: white;
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    width: 75%;
+    height: 9vh;
+    padding: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+#txtCiudad2 {
+    background: white;
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    width: 75%;
+    height: 9vh;
+    padding: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+#btnBuscar {
+    margin-top: 10px !important;
+    background-color: #bd5923;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
+#btnBuscarEspecifica {
+    margin-top: 10px !important;
+    background-color: #bd5923;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1pt;
+}
+.pronosticoPrincipal {
+    height: 40vh;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(10,15,78,1) 100%);
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.pronosticoSecundario {
+    height: 12vh;
+    background-color: #000038;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.pronosticoSecundario2 {
+    height: 12vh;
+    background-color: #0a0e4a;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.titCiudad {
+    text-align: center;
+    font-size: 32px !important;
+    padding-top: 2vh !important;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0 !important;
+}
+.titFecha {
+    text-align: center;
+    color: #8e8e8e;
+}
+.cajaTemperatura img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -1vh;
+}
+.cajaTemperatura p {
+    font-size: 38px;
+    text-align: center;
+    margin-top: -2vh;
+    font-weight: 700;
+}
+.termica {
+    text-align: center;
+    color: #8e8e8e;
+    margin-top: -1vh;
+}
+.descripcion {
+    text-align: center;
+    margin-top: 2vh;
+}
+.pronosticoSecundario img {
+    float: right;
+    margin-top: -10vh;
+    height: 75px;
+}
+.pronosticoSecundario p {
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+.pronosticoSecundario2 img {
+    float: right;
+    margin-top: -10vh;
+    height: 75px;
+}
+.pronosticoSecundario2 p {
+    padding-top: 2vh;
+    padding-left: 2vh;
+}
+.volver {
+    position: absolute;
+    color: white;
+    top: 4vh;
+    height: 3%;
+    padding-left: 3vh;
+}
+.ciudadEspecifica {
+    color: whitesmoke;
+    margin-top: 10vh;
+    text-align: center;
+}
+.ciudadEspecifica a{
+    color: whitesmoke;
+    text-decoration: none; 
+    border-bottom: 2px solid whitesmoke;
+}
+#txtEspecifica {
+    background: white;
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    width: 75%;
+    height: 9vh;
+    padding: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+}
+#logo {
+    height: 25vh;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3vh;
+}
+.page, .page__background, .page__content {
+    background-color: #0a0e4a;
+}
+#nombreCiudad {
+    width: 100%;
+}
+#nombreCiudad h1 {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 4vh;
+}
+#btnDetalles {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+    background-color: #bd5923;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1pt; 
+    padding: 8px;
+}
+#descripcionApp {
+    color: whitesmoke;
+    text-align: center;
+    max-width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.progress-bar--indeterminate:before {
+    background-color: #bd5923;
+}
+.progress-bar--indeterminate:after {
+    background-color: #bd5923;
+}
